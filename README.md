@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is hosted on firebase. Open [https://slack-clone-ae1a4.web.app](https://slack-clone-ae1a4.web.app) to view slack-clone.
 
 ## Available Scripts
 
