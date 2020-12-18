@@ -16,6 +16,9 @@ function ChatInput({ channelName, channelId}) {
                 timestamp: firebase.firestore.FieldValue.serverTimestamp(),
                 user: user.displayName,
                 userImage: user.photoURL
+            }).then(()=>setInput(""))
+            .catch(function(error) {
+                console.error("Error adding document: ", error);
             });
         }
     };
